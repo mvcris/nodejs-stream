@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "build/src/index2.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [],
+  "scripts": {
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/ws": "^8.5.10",
+    "gts": "^5.3.1",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
